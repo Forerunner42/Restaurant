@@ -1,0 +1,164 @@
+*{
+    margin:unset;
+}
+
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+
+:root{
+    font-size:16px;
+}
+
+
+/* Nav bar */
+#Home{
+    display:flex;
+    background-color: black;
+    padding:20px;
+    color:white;
+    font-size:20px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+#Home > h2{
+    font-family: "Playwrite CU", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  padding-left:40px;
+}
+
+
+/* Nav section */
+nav , a{
+    text-decoration: none;
+    color:white;
+    padding-left:30px;
+    font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+/* Hero section */
+.Hero{
+    background-image:url("Resturant/Menu\ Images/Hero.jpg");
+    height:400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Button in the Hero section */
+.Hero > a{
+    background: lightcoral;
+    color:white;
+    width:400px;
+    letter-spacing: 5px;
+    margin-top: 20px;;
+    font-size:20px;
+    padding:20px;
+    border:none;
+    text-align: center;
+    border-radius:5px;
+    font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.Hero > h1{
+    letter-spacing: 5px;
+    font-family: "Playwrite CU", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Menu */
+#Menu{
+    text-align: center;
+    font-size: 3em;
+    padding:20px;
+    letter-spacing: 5px;
+    font-family: "Playwrite CU", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#MenuPage{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.MenuItems{
+    padding:10px;
+    margin-bottom:50px;
+    box-shadow:2px 4px 7px 2px rgba(0, 0, 0, .5);
+    border-radius:5px;
+}
+
+
+.MenuItems > p{
+    text-align: center;
+    padding-top:15px;
+    font-size: 20px;
+    font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+.MenuImg{
+    width:300px;
+    height:500px;
+}
+
+
+/* About Us section */
+#AboutUs{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:30px;
+    padding-bottom:15px;
+    background-color: lightgray;
+}
+
+
+/* Contact Us section */
+#ContactUs{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    padding-bottom:30px;
+    padding-top:15px;
+}
+
+
+/* Footer section */
+footer{
+    display:flex;
+    justify-content:center;
+    color:white;
+    background-color: black;
+    padding:25px;
+}
